@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <table align="center" cellpadding="10" cellspacing="2">
+        <tr>
+            <th bgcolor="lightgreen">Step 1 : Account</th>
+            <th bgcolor="lightgreen">Step 2 : Personal Details</th>
+            <th bgcolor="Skyblue">Step 3 : Your Review</th>
+        </tr>
+    </table>
+
+    
+            <form action="http://www.example.com/subscribe.php"
+            method="get">
+            <fieldset>
+                    <br />
+                    <legend>Your Review</legend>
+                    <label>
+                    How did you hear about us?
+                    <select name="Categgories">
+                    <option value="Select Your Option">Select Your Option</option>
+                    <option value="Firends">Firends</option>
+                    <option value="Poster">Poster</option>
+                    <option value="TV-aids">TV-aids</option>
+                    </select></label><br />  
+
+                    <label>
+                        <p>Would you visit again?</p>
+                        <input type="radio" name="again" value="Yes"  required/>Yes
+                        <input type="radio" name="again" value="No" required/>No
+                        <input type="radio" name="again" value="Maybe"  required/>Maybe
+                    </label><br />
+                    <label>
+                        <p><b>Comments:</b></p>
+                        <textarea name="Comments" placeholder="Enter Your comments here..." cols="30" rows="5"></textarea><br />
+                        <p><b>Documents:</b></p>
+                        <input type="file" name="documents"  required><br /><br />
+                        <input type="checkbox" name="sign in"  required>Sign me up for email updates
+                    </label><br /><br />
+
+                    <a href="step2.html"><img src="Images/back.png" alt="back" width="100px" height="30px"></a>
+                    <a href="submit.html"><img src="Images/submit.png" alt="next" width="100px" height="30px"></a>
+            </fieldset>
+            </form>
+</body>
+</html>
